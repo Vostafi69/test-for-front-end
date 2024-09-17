@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    class="font-inter flex min-h-screen min-w-full items-center justify-center p-3"
+  >
+    <article
+      class="relative flex h-[380px] w-full min-w-[315px] max-w-[440px] flex-col overflow-hidden bg-white pb-[138px] text-sm shadow-[0_2px_6px_2px_rgba(0,_0,_0,_0.15),0_1px_3px_rgba(0,0,0,0.3)] transition-shadow duration-300 hover:shadow-[0_4px_8px_3px_rgba(0,_0,_0,_0.15),0_1px_2px_rgba(0,0,0,0.3)]"
+    >
+      <div class="relative flex-1">
+        <button
+          class="text absolute right-3 top-3 z-20 inline-flex h-7 w-[59px] items-center justify-center whitespace-nowrap rounded-md border border-gray-200 bg-white text-xs font-medium text-gray-800 transition-colors hover:bg-white/90 disabled:pointer-events-none disabled:opacity-50"
+        >
+          button
+        </button>
+        <img
+          class="absolute h-full w-full bg-gray-300 object-cover object-center"
+          src="/"
+          alt="Картинка"
+        />
+      </div>
+
+      <div
+        class="group absolute -bottom-[128px] left-0 right-0 space-y-3 bg-white px-3 py-4 transition-[bottom] duration-300 ease-[cubic-bezier(0.175,0.885,0.32,1.175)] hover:bottom-0"
+      >
+        <div class="flex items-center justify-between">
+          <div class="space-y-1">
+            <p class="text-sm text-gray-500">Subheader</p>
+            <h3 class="text-xl font-medium leading-6 text-gray-800">Header</h3>
+          </div>
+          <p class="text-lg font-medium text-gray-800">Text</p>
+        </div>
+
+        <div class="relative">
+          <div
+            class="visible absolute left-0 right-0 top-0 space-y-1 opacity-100 transition-[opacity] duration-300 group-hover:invisible group-hover:opacity-0"
+          >
+            <button
+              class="inline-flex h-[46px] w-full items-center justify-center whitespace-nowrap rounded-lg bg-gray-500 py-[14px] text-[15px] font-bold text-white transition-colors hover:bg-gray-500/90 disabled:pointer-events-none disabled:opacity-50"
+            >
+              Button
+            </button>
+            <p class="text-center text-xs text-gray-500">Sub text</p>
+          </div>
+
+          <ul
+            class="space-y-2 border-t border-gray-200 pt-3 opacity-0 group-hover:opacity-100"
+          >
+            <li class="flex items-center justify-between">
+              <p class="text-gray-500">Text</p>
+              <a class="text-gray-800" href="#">Link</a>
+            </li>
+            <li class="flex items-center justify-between">
+              <p class="text-gray-500">Text</p>
+              <a class="text-gray-800" href="#">Link</a>
+            </li>
+            <li class="flex items-center justify-between">
+              <p class="text-gray-500">Text</p>
+              <a class="text-gray-800" href="#">Link</a>
+            </li>
+            <li class="flex items-center justify-between">
+              <p class="text-gray-500">Text</p>
+              <a class="text-gray-800" href="#">Link</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="space-y-1">
+          <button
+            class="inline-flex h-[46px] w-full items-center justify-center whitespace-nowrap rounded-lg bg-gray-500 py-[14px] text-[15px] font-bold text-white transition-colors hover:bg-gray-500/90 disabled:pointer-events-none disabled:opacity-50"
+          >
+            Button
+          </button>
+          <p class="text-center text-xs text-gray-500">Sub text</p>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
